@@ -1,0 +1,18 @@
+# Vendored/cloned dependency (huge; not part of this project's own code)
+kicad-python/
+
+# Ad hoc snapshots taken before edits during development -- superseded by git history now
+backups/
+
+# KiCad local backup/undo history and lock files
+project/.history/
+project/*.lck
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated preview exports (regenerate with kicad-cli, see README)
+*.pdf
+*.png
+*.svg
